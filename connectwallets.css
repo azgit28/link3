@@ -120,16 +120,15 @@ a>h1 {
     text-shadow: 2px right;
 }
 
-
 @media (max-width:768px) {
     .wallets {
         display: grid;
         grid-template-columns:1fr 1fr 1fr 1fr;
         width: 100%;
-        /* justify-content: center;
+        justify-content: center;
         place-items: center;
         align-items: center;
-    */
+   
     }
 
 }
@@ -139,27 +138,18 @@ a>h1 {
         display: grid;
         grid-template-columns:1fr 1fr 1fr;
         width: 100%;
-        justify-content:space-around;
+        justify-content:center;
         place-items: center;
         align-items: center;
-        /* overflow-x: hidden; */
+        
        
        
     }
+   
     .body {
         position: fixed;
     }
-    .heady {   
-        display: grid;
-        justify-content:space-between;
-        place-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        position: sticky;
-        top:0;
-        z-index: 22;
-        background: gray;
-        /* padding: 10px 0; */
-    }
+  
     
     .heady h1 {
         font-size: 20px;
@@ -184,7 +174,7 @@ a>h1 {
         align-items: center;
         color: rgba(0, 0, 7, 0.9);
         font-family: "Silka",Sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 600;
         margin-bottom: 10px;
     }
@@ -201,9 +191,12 @@ a>h1 {
         padding: 0 2px;
     
     }
+
     
    
 }
+
+
 .w1>img {
     width: 50%;  
 }

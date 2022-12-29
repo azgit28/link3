@@ -122,7 +122,7 @@ body {
     text-decoration: none;
     border: 1px solid blue;
     border-radius: 10px 0;
-    position: relative;
+    /* position: relative; */
    
     color: black;
     padding: 5px;
@@ -152,7 +152,10 @@ body {
     max-width: 100%;
 
 }
-@media(max-width:425px){
+@media(min-width:320px){
+    /* .hero {
+        height: 60vh;
+    } */
     .hero h1 {
         font-family:'Silika', sans-serif ;
         font-size:14px ;
@@ -173,8 +176,17 @@ body {
         
         /* height: 50%; */
         /* border: 1px solid white; */
+    }  
+    
+}
+@media(min-width:426px) {
+    .cards {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: white;
+        text-align: center;
+        gap: 50px;
     }
 
-    
-    
 }
